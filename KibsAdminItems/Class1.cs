@@ -21,7 +21,7 @@ namespace SillyAdminItems
 
         public override string Name => "KibsSillyAdminItems";
         public override string Author => "Kibs";
-        public override Version Version => new Version("Version 1");
+        public override Version Version => new Version(1,0,0);
         public override void OnEnabled()
         {
 
