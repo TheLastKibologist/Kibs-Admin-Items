@@ -70,6 +70,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="ClusterBall.cs" />
     <Compile Include="Config.cs" />
+    <Compile Include="GravityGun.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SizeGun.cs" />
     <Compile Include="DeathsPaintbrush.cs" />
@@ -78,6 +79,22 @@
     <PackageReference Include="ExMod.Exiled">
       <Version>9.6.1</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\Assembly-CSharp-firstpass.dll" />
+    <Analyzer Include="D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\Assembly-CSharp.dll" />
+    <Analyzer Include="D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\LabApi.dll" />
+    <Analyzer Include="D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\Mirror.dll" />
+    <Analyzer Include="D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\NorthwoodLib.dll" />
+    <Analyzer Include="D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\Snake.dll" />
+    <Analyzer Include="D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\System.Collections.Immutable.dll" />
+    <Analyzer Include="D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\System.Security.dll" />
+    <Analyzer Include="D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\Unity.TextMeshPro.dll" />
+    <Analyzer Include="D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\UnityEngine.AIModule.dll" />
+    <Analyzer Include="D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\UnityEngine.CoreModule.dll" />
+    <Analyzer Include="D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\UnityEngine.InputModule.dll" />
+    <Analyzer Include="D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\UnityEngine.ParticleSystemModule.dll" />
+    <Analyzer Include="D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\UnityEngine.PhysicsModule.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
