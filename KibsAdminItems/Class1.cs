@@ -5,7 +5,9 @@ using Exiled.CustomItems;
 using Exiled.CustomItems.API;
 using Exiled.CustomItems.API.Features;
 using Exiled.Events;
+using Exiled.Events.EventArgs.Player;
 using Exiled.Events.Handlers;
+using InventorySystem.Items.MicroHID.Modules;
 using MEC;
 using System;
 using System.Collections.Generic;
@@ -27,7 +29,6 @@ namespace SillyAdminItems
 
             instance = this;
             CustomItem.RegisterItems(false);
-
             base.OnEnabled();
         }
         public override void OnDisabled()

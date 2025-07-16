@@ -81,7 +81,7 @@ namespace SillyAdminItems
                 if (release || owner.IsDead)
                 {
                     grabbed.IsGodModeEnabled = false;
-                    role.Gravity = Physics.gravity;
+                    role.Gravity = ((FpcRole)owner.Role).Gravity;
                     grabed = false;
                     release = false;
                     break;
